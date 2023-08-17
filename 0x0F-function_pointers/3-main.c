@@ -4,7 +4,7 @@
 
 /**
  * main - prints the result of simple operations
- * @argc: the number of arguments 
+ * @argc: the number of arguments
  * supplied to the program.
  * @argv: an array of pointers to the argument.
  * Return: always 0.
@@ -27,7 +27,7 @@ int main(int __attribute__((__unused__))argc, char *argv[])
 		printf("error\n");
 		exit(99);
 	}
-	if (( *op == '/' && num2 == 0) ||
+	if ((*op == '/' && num2 == 0) ||
 			(*op == '%' && num2 == 0))
 	{
 		printf("error\n");
